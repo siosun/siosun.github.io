@@ -1,0 +1,112 @@
+<br />
+* {<br />
+margin: 0;              - обнуляются отступы снаружи элементов<br />
+padding: 0;              - обнуляются отступы внутри элементов<br />
+}</p>
+<p>html { height: 100%; }             - растягиваем по высоте 100% <br />
+body {                    - установка параметров страницы <br />
+   font: 12px/18px Arial;            - устанавливаютс€ шрифты <br />
+    height: 100%;}                     - ширина 100%</p>
+<p>a {                      Ч установка параметров ссылок<br />
+  color: blue;                Ч цвет ссылки<br />
+  outline: none;<br />
+  text-decoration: underline;         Ч подчеркивание ссылки снизу<br />
+}<br />
+a:hover {              Ч параметры ссылок при наведении курсора<br />
+	text-decoration: none;   Ч подчеркивание отменить при наведении курсора<br />
+}</p>
+<p>p {<br />
+	margin: 0 0 18px       Ч установка внешних отступов дл€ параграфов<br />
+}</p>
+<p>img {<br />
+	border: none ;     Ч обнул€ем бордеры (обводку) дл€ всех изображений<br />
+}</p>
+<p>input {<br />
+	vertical-align: middle;<br />
+}</p>
+<p>#wrapper {<br />
+	min-width: 1000px;       Ч минимальный размер ширины каркаса сайта<br />
+	max-width: 1500px;             Ч максимальный размер каркаса<br />
+	margin: 0 auto;<br />
+}<br />
+/* Header ЧЧЧЧЧЧЧЧЧЧЧЧЧЧЧЧ-*/<br />
+#header {<br />
+	height: 150px;                Ч высота хедера 150 пикселей<br />
+	background: url(img/ffffff.jpg) repeat-x; Ч фоном хедера изображение ffffff.jpg<br />
+}</p>
+<p>/* баннер в хедере */<br />
+.ban_1 {               Ч установленные стили дл€ div class=їban_1?<br />
+  width:468px;                  Ч ширина блока<br />
+	height:60px;                  Ч высота блока<br />
+	float:right;                  Ч разрешено обтекание справа<br />
+	position:relative;<br />
+	top:10px;                   Ч расположение от верха блока<br />
+	right:100px;                Ч расположение от правой стороны<br />
+}<br />
+/* end */</p>
+<p>/* начало главного меню */<br />
+#menu1<br />
+ {<br />
+ Ч данный блок создает параметры главного меню<br />
+  блока div id=їmenu1?<br />
+  подробное описание меню будет в других стать€х Ч</p>
+<p>}<br />
+/* конец главного меню */</p>
+<p><!-- логотип дл€ сайта --><br />
+#logo {                      Ч блок логотипа div id=їlogoї<br />
+	 width:200px;                 Ч ширина изображени€<br />
+	 height:60px;                  Ч высота изображени€<br />
+	 float:left;<br />
+	 border:1px solid black;           Ч оставим бордер черного цвета<br />
+	 position:relative;<br />
+	 left:10px;<br />
+	 text-align:center;            Ч содержимое расположим посредине<br />
+}<br />
+<!-- end --></p>
+<p>/* Middle ЧЧЧЧЧЧЧЧЧЧЧЧЧЧЧЧЧЧЧЧЧ*/<br />
+         Ч эти стили задают параметры всего шаблона, редактировать не нужно Ч<br />
+#middle { width: 100%; padding: 0 0 80px; height: 1%; position: relative; }<br />
+#middle:after { content: С.Т; display: block; clear: both; visibility: hidden; height: 0;<br />
+}<br />
+#container { width: 100%; float: left; overflow: hidden;<br />
+}<br />
+#content { padding: 0 0 0 270px;<br />
+}<br />
+               Ч-  !!!! Ч</p>
+<p> /* бегуща€ строка */<br />
+#stroka {                   Ч<br />
+  width:auto;                Ч<br />
+  height:auto;          Ч параметры бегущей строки блока div id=їstrokaї<br />
+	border:none;                Ч<br />
+	float:none;                Ч<br />
+}<br />
+/* end */</p>
+<p>/* Sidebar Left  Ч начало блока левого сайдбара Ч редактировать не нужно Ч */<br />
+#sideLeft {<br />
+	float: left;                   Ч распложение сайдбара слева<br />
+	width: 250px;             Ч ширина блока 250 пикселей (не мен€ть)<br />
+	margin-left: -100%;<br />
+	position: relative;<br />
+	background-image:url(img/fon-125-21.jpg);      Ч фон сайдбара изображение<br />
+}</p>
+<p>/* ћеню левого сайдбара дл€ удобства редактировани€ расположено горизонтально */<br />
+  #sidebarLeft {float:none; width:200px; padding: 5px 20px 5px;<br />
+  margin-top:5px; margin-bottom:5px;}<br />
+	#sidebarLeft ul {margin:20px 0; padding:0;}<br />
+	#sidebarLeft li {list-style:none; padding:3px 0 3px 10px;}<br />
+	#sidebarLeft li:hover {background-color:#2d5004;}<br />
+	#sidebarLeft a:hover {text-decoration:none; color:#FFFFFF;}<br />
+	#sidebarLeft a {text-decoration:none; color:#000099;}<br />
+	/*  онец меню левого свйдбара */</p>
+<p>/* боковые баннер */             Ч параметры тега img id=їbanner:imgї<br />
+#banner:img {<br />
+  width:105px;<br />
+	height:105px;<br />
+	border:1px solid #0000CC;<br />
+}<br />
+/* end */</p>
+<p>/* Footer Ч параметры блока футер ЧЧЧЧЧЧЧЧ*/<br />
+#footer {<br />
+	height: 80px;                   Ч высота футера 80 пикселей<br />
+	background-image:url(img/footert.jpg);  Ч фоном будет изображение footert.jpg<br />
+}<br />
